@@ -1,0 +1,104 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(./Images/REEBOK-Background.jpg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+nav {
+  position: static;
+  text-align: center;
+  z-index: 1000;
+}
+
+div {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.736);
+  color: rgb(171, 180, 220);
+  align-items: center;
+  margin-right: 10px;
+  width: fit-content;
+}
+
+section {
+  border: 2px solid rgb(116, 14, 14);
+  padding: 5px;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+img.section-image {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  padding: 0;
+}
+
+li {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+main {
+  border: 1px solid red;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 5px;
+
+  
+  display: flex;
+}
+
+nav a {
+  font-size: 20px;
+  padding: 15px;
+  color: maroon;
+}
+
+nav a:hover {
+ color: crimson;
+}
